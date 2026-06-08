@@ -240,10 +240,6 @@ The SVM model is trained on:
 - Test Accuracy: **89.93%**
 - High rating class (4-5 stars) precision: **0.99**
 
-### Model Files
-
-- 📓 [Chatbot Notebook](notebooks/Final%20model%20chatbot.ipynb) - Complete training and inference code
-
 ### Output Tests
 
 Here are sample outputs from the chatbot testing:
