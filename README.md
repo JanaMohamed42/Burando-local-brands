@@ -172,8 +172,19 @@ The super admin monitors all registered users and brand owners, their chosen cat
 ### User Use Case Diagram
 <img width="989" height="3681" alt="User Usecase diagram (1) drawio (1)" src="https://github.com/user-attachments/assets/ecd6f8d8-131c-4b62-9b9e-8e95ae7f5b33" />
 
+### ERD  
+<img width="3227" height="2111" alt="ERD_Chen_Notation drawio_UPDATED" src="https://github.com/user-attachments/assets/f9bc7ba7-9035-4054-89f4-cf6350e4e7d6" />
+
+
+### Schema Diagram
+<img width="2396" height="1882" alt="schema drawio" src="https://github.com/user-attachments/assets/713bfdf5-4a07-4ff3-a6d8-b6b5aaea96d0" />
+ 
 ### Brand Owner Activity Diagram
 <img width="2511" height="2262" alt="Brand Owmer (1)" src="https://github.com/user-attachments/assets/670f05b4-da01-4056-9bc4-0c0a3987547f" />
+
+---
+### Brando Class Diagram
+<img width="1555" height="2114" alt="Burando_Class_Diagram drawio" src="https://github.com/user-attachments/assets/23ade075-4c5e-482e-bfe1-9cb92c1cdd1f" />
 
 ---
 
@@ -184,18 +195,6 @@ The super admin monitors all registered users and brand owners, their chosen cat
 ### SEQ-Owner
 <img width="911" height="5722" alt="SEQ-Owner drawio (1)" src="https://github.com/user-attachments/assets/8ee9d4f7-656b-40ee-bd69-3f0ee622049f" />
 
-
----
-
-### Brando Class Diagram
-<img width="1555" height="2114" alt="Burando_Class_Diagram drawio" src="https://github.com/user-attachments/assets/23ade075-4c5e-482e-bfe1-9cb92c1cdd1f" />
-
-
----
-
-### ERD  (UPDATED)
-
-<img width="3227" height="2111" alt="ERD_Chen_Notation drawio_UPDATED" src="https://github.com/user-attachments/assets/f9bc7ba7-9035-4054-89f4-cf6350e4e7d6" />
 
 
 ### Schema Diagram
