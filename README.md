@@ -209,6 +209,50 @@ The super admin monitors all registered users and brand owners, their chosen cat
 
 <img width="3579" height="1520" alt="Chatbot drawio" src="https://github.com/user-attachments/assets/495eec6d-4136-4115-9d0b-c2747b60b522" />
 
-
 ---
+## 🤖 AI Chatbot Model
+
+The chatbot provides personalized product recommendations based on user input. It uses:
+
+- **Sentence Transformers** (all-MiniLM-L6-v2) for text embeddings
+- **Zero-shot classification** for category detection
+- **Support Vector Machine (SVM)** for product rating classification (Low/Medium/High)
+- **Hybrid recommendation engine** combining:
+  - Semantic similarity (60%)
+  - Sales popularity (30%)
+  - User query similarity (10%)
+
+### How SVM is Used
+
+The **Support Vector Machine (SVM)** algorithm is applied to classify products based on their rating:
+
+| Rating Range | Class | Label |
+|--------------|-------|-------|
+| 1 - 2 | 0 | Low Rating |
+| 3 | 1 | Medium Rating |
+| 4 - 5 | 2 | High Rating |
+
+The SVM model is trained on:
+- Product embeddings (from Sentence Transformer)
+- Numerical features (price, sales_count, review_count)
+
+**Model Performance:**
+- Test Accuracy: **89.93%**
+- High rating class (4-5 stars) precision: **0.99**
+
+### Model Files
+
+- 📓 [Chatbot Notebook](notebooks/Final%20model%20chatbot.ipynb) - Complete training and inference code
+
+### Output Tests
+
+Here are sample outputs from the chatbot testing:
+
+<img width="1600" height="408" alt="WhatsApp Image 2026-06-08 at 8 44 54 PM" src="https://github.com/user-attachments/assets/dc5344ec-57bf-4e0f-b457-daa4ca3e3fa8" />/test1.png)
+
+<img width="1274" height="389" alt="WhatsApp Image 2026-06-08 at 8 46 12 PM" src="https://github.com/user-attachments/assets/0e481ff7-d7d5-4cec-92ed-24f65663d386" />
+
+<img width="1196" height="509" alt="WhatsApp Image 2026-06-08 at 8 46 30 PM" src="https://github.com/user-attachments/assets/dd7c7869-b553-4337-a548-6a0da006e374" />
+
+<img width="1231" height="452" alt="WhatsApp Image 2026-06-08 at 8 46 55 PM" src="https://github.com/user-attachments/assets/d647df89-e57a-4d4f-82f8-979f7540460c" />
 
