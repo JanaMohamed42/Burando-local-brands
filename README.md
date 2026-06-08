@@ -197,10 +197,6 @@ The super admin monitors all registered users and brand owners, their chosen cat
 
 
 
-### Schema Diagram
-
-<img width="2396" height="1882" alt="schema drawio" src="https://github.com/user-attachments/assets/713bfdf5-4a07-4ff3-a6d8-b6b5aaea96d0" />
-
 ---
 
 ### Checkout Order Flowchart
